@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ImgWnd.cpp" />
+    <ClCompile Include="ParamsDlg.cpp" />
+    <ClCompile Include="PO1.cpp" />
+    <ClCompile Include="PO1Dlg.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="BMP.cpp" />
+    <ClCompile Include="HistogramDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImgWnd.h" />
+    <ClInclude Include="ParamsDlg.h" />
+    <ClInclude Include="PO1.h" />
+    <ClInclude Include="PO1Dlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="BMP.h" />
+    <ClInclude Include="HistogramDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PO1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PO1.ico" />
+    <Image Include="Samples\HR1-8.bmp">
+      <Filter>Samples</Filter>
+    </Image>
+    <Image Include="Samples\HR1-24.bmp">
+      <Filter>Samples</Filter>
+    </Image>
+    <Image Include="Samples\RB1-1.bmp">
+      <Filter>Samples</Filter>
+    </Image>
+    <Image Include="Samples\RB1-8.bmp">
+      <Filter>Samples</Filter>
+    </Image>
+    <Image Include="Samples\RB1-24.bmp">
+      <Filter>Samples</Filter>
+    </Image>
+    <Image Include="Samples\Rose_Mofford_Signature.bmp">
+      <Filter>Samples</Filter>
+    </Image>
+    <Image Include="Samples\yaleB11_P00A+050E-40.bmp">
+      <Filter>Samples</Filter>
+    </Image>
+    <Image Include="Samples\HR1-1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PO1.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Samples">
+      <UniqueIdentifier>{6d53bd40-6257-4950-a347-e3fe2cf63ade}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
